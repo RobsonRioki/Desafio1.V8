@@ -1,4 +1,22 @@
-.navbar {
-    justify-content: flex-end;
-    display: flex;
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+
+.ulHeader {
+    display: inline-flex;
+    width: 90%;
+    justify-content: end;
+    list-style: none;
+}
+
+.liHeader {
+    margin-left: 10px;
+}
+
+.aHeader {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
