@@ -40,8 +40,8 @@ footer {
     display: inline-flex;
     width: auto;
     height: auto;
-    padding: 100px 300px 100px 300px;
-    justify-content: center;
+    margin: 100px 300px 100px 300px;
+    justify-content: space-between;
 }
 
 .container--titulo1 {
@@ -49,7 +49,7 @@ footer {
 }
 
 .container--1 {
-    max-width: 400px;
+    max-width: 500px;
 }
 
 .downloadBtn {
@@ -68,7 +68,6 @@ footer {
     border: 2px solid black;
     border-radius: 50%;
     margin-left: 200px;
-    justify-content: space-between;
 }
 
 .john--img {
