@@ -1,11 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
+}
+
+header {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
 
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #21243D;
+}
 
 .ulHeader {
     display: inline-flex;
@@ -29,6 +41,7 @@
     width: auto;
     height: auto;
     padding: 100px 300px 100px 300px;
+    justify-content: center;
 }
 
 .container--titulo1 {
@@ -70,8 +83,8 @@
 
 }
 
-.titulo--section2{
-    padding-left:300px;
+.titulo--section2 {
+    padding-left: 300px;
 }
 
 .container--card1 {
@@ -79,15 +92,14 @@
     display: inline-flex;
     width: auto;
     height: auto;
-    justify-content: center;
 
 }
 
 .card1 {
-    max-width: 400px;
-    max-height: 300px;
+    width: 400px;
+    height: 300px;
     margin-right: 10px;
-    padding: 20px;
+    padding: 20px 0 20px 20px;
     background-color: white;
 }
 
@@ -96,38 +108,39 @@
     height: auto;
     padding: 50px 300px 50px 300px;
 }
-.work--img{
+
+.work--img {
     display: flex;
     width: 246px;
     height: 180px;
     border-radius: 6px;
 }
 
-.titulo--section3{
+.titulo--section3 {
     margin-bottom: 50px;
 }
 
-.Work{
+.Work {
     display: inline-flex;
     width: auto;
     height: auto;
     padding: 20px 0 20px 0;
 }
 
-.work--content{
-    margin-left: 100px;
+.work--content {
+    padding-left: 100px;
 }
 
-.desc{
+.desc {
     display: inline-flex;
 }
 
-.projeto--nome{
-    margin-left: 20px;
+.projeto--nome {
+    padding-left: 20px;
     color: #8695A4;
 }
 
-.years{
+.years {
     display: flex;
     width: 62px;
     height: 25px;
@@ -135,4 +148,27 @@
     justify-content: center;
     color: white;
     background-color: #142850;
+}
+
+.site--icon {
+    height: 30px;
+    width: 30px;
+}
+
+.ulFooter {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    list-style: none;
+}
+
+.liFooter {
+    padding-left: 10px;
+}
+
+.footerTexto {
+    display: flex;
+    justify-content: center;
+    color: #21243D;
+    font-size: 14px
 }
