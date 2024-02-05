@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +10,9 @@
     <header>
         <nav class="navbar">
             <ul class="ulHeader">
-                <li class="liHeader"><a href="#" class="aHeader">About me</a></li>
-                <li class="liHeader"><a href="#" class="aHeader">Blog</a></li>
-                <li class="liHeader"><a href="#" class="aHeader">Contact</a></li>
+                <li class="liHeader"><a href="#abtMe" class="aHeader">About me</a></li>
+                <li class="liHeader"><a href="#RecentPst" class="aHeader">Blog</a></li>
+                <li class="liHeader"><a href="#footer" class="aHeader">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -21,21 +21,59 @@
         <div class="container--1">
             <div class="container--titulo1"><h1>Hi, I am John, Creative Technologist
             </h1>
+            <br>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias esse molestiae adipisci voluptates minus maiores! Dolor corrupti aut reprehenderit incidunt nobis culpa voluptatem doloribus. Sint, neque alias! Labore, nesciunt dignissimos.</p>
+            <br>
             <button class="downloadBtn">Download Resume</button>
         </div>
         <div class="container--img">
             <img class="john--img" src="john.png" alt="Imagem do John">
         </div>
     </section>
-        <section class="Blog" id="BlogPosts">
-            <section class="RecentPosts"></section>
+            <section class="RecentPosts" id="RecentPst">
+                <div class="titulo--section">
+                    <span>Recent posts</span>
+                </div>
+                <div class="container--card1">
+                <div class="card1">
+                    <h2>
+                        Making a design system from scratch
+                    </h2>
+                    <br>
+                    <p>12 Feb 2020   |    Design, Pattern</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam natus molestiae accusantium, aperiam, magnam praesentium veniam rerum dolorem sit assumenda commodi recusandae animi sequi officia sapiente. Exercitationem asperiores quidem ipsam!</p>
+                </div>
 
-            <section class="FeaturedWorks"></section>
-        </section>
+                <div class="card1">
+                    <h2>
+                        Creating pixel perfect icons in Figma
+                    </h2>
+                    <br>
+                    <p>12 Feb 2020   |    Figma, Icon Design</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam natus molestiae accusantium, aperiam, magnam praesentium veniam rerum dolorem sit assumenda commodi recusandae animi sequi officia sapiente. Exercitationem asperiores quidem ipsam!</p>
+                </div>
+            </div>
+            </section>
+
+            <section class="FeaturedWorks" id="FeaturedWrk">
+                <span>Featured works</span>
+                <div class="Work">
+                    <div class="work--img">
+                        <img src="dash.png" alt="imagem de uma dashboard">
+                    </div>
+                    <div class="work--content">
+                        <h2>Designing Dashboards</h2>
+                        <div class="years">2020</div>
+                        <span>Dashboard</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione expedita quae doloribus dolor. Saepe at explicabo esse dicta quas reprehenderit, aspernatur vitae assumenda, consectetur alias aliquam labore incidunt nemo architecto.</p>
+                    </div>
+                </div>
+            </section>
     </main>
-    <footer>
+    <footer class="rodape" id="footer">
 
     </footer>
 </body>
