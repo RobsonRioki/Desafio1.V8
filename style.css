@@ -52,6 +52,7 @@ footer {
 }
 
 .container--titulo1 {
+    color: #21243D;
     max-width: 320px;
     margin-bottom: 5%;
 }
@@ -62,6 +63,7 @@ footer {
 
 .downloadBtn {
     background-color: #FF6464;
+    font-weight: bold;
     color: white;
     width: 208px;
     height: 47px;
@@ -74,7 +76,7 @@ footer {
     width: 243px;
     height: 243px;
     display: flex;
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 50%;
     position: absolute;
     top: 24%;
@@ -102,6 +104,11 @@ footer {
     width: 100%;
     height: auto;
     justify-content: space-around;
+}
+
+.card1>h2,
+.card2>h2 {
+    color: #21243D;
 }
 
 .card1 {
@@ -153,6 +160,10 @@ hr {
 
 .work--content {
     padding-left: 100px;
+}
+
+.work--content>h2 {
+    color: #21243D;
 }
 
 .desc {
@@ -252,6 +263,8 @@ footer {
     }
 
     .titulo--section2 {
+        font-weight: bold;
+        color: #21243D;
         width: auto;
         height: auto;
         margin: auto;
@@ -268,6 +281,10 @@ footer {
         height: 90%;
         align-items: center;
         padding-bottom: 20px;
+    }
+
+    .day {
+        color: #21243D;
     }
 
     .card1 {
@@ -288,6 +305,8 @@ footer {
     }
 
     .titulo--section3 {
+        font-weight: bold;
+        color: #21243D;
         width: auto;
         height: auto;
         margin: auto;
