@@ -44,6 +44,12 @@ footer {
     font-weight: bold;
 }
 
+.aHeader:hover {
+    transition: 0.2s;
+    font-size: 22px;
+    cursor: pointer;
+}
+
 .aboutMe {
     display: inline-flex;
     width: auto;
