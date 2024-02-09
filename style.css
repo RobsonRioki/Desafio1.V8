@@ -72,6 +72,11 @@ footer {
     margin-top: 5%;
 }
 
+.downloadBtn:hover {
+    background-color: #21243D;
+    cursor: pointer;
+}
+
 .container--img {
     width: 243px;
     height: 243px;
